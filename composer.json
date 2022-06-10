@@ -3,12 +3,25 @@
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "percent",
+        "field",
+        "idez"
     ],
+    "authors": [
+        {
+            "name": "Rafael Laurindo",
+            "email": "rafael@idez.com.br",
+            "homepage": "https://idez.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/idezdigital/nova-percent-field/issues"
+    },
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0",
-        "ext-bcmath": "*"
+        "php": "^7.4|^8.0|^8.1"
     },
     "autoload": {
         "psr-4": {
