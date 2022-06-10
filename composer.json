@@ -1,6 +1,6 @@
 {
     "name": "idez/nova-percent-field",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova percent field.",
     "keywords": [
         "laravel",
         "nova",
