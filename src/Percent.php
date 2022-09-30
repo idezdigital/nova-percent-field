@@ -3,10 +3,13 @@
 namespace Idez\NovaPercentField;
 
 use Laravel\Nova\Fields\Field;
+use Laravel\Nova\Fields\SupportsDependentFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Percent extends Field
 {
+    use SupportsDependentFields;
+
     /**
      * The field's component.
      *
